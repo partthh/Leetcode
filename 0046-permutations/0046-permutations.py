@@ -1,16 +1,19 @@
 class Solution(object):
     def __init__(self):
         self.result=[]
-    def solve(self,nums,current,used):
+        self.set1=set()
+    def solve(self,nums,current):
         if(len(current)==len(nums)):
             self.result.append(current[:])
             return
         for i in range(len(nums)):
-            if(nums[i] not in current):
+            if(nums[i] not in self.set1):
                 current.append(nums[i])
-                used[i]=True
-                self.solve(nums,current,used)
-                used[i]=False
+                self.set1.add(nums[i])
+                # used[i]=True
+                self.solve(nums,current)
+                # used[i]=False
+                self.set1.remove(nums[i])
                 current.pop()
                 # break
         
@@ -25,7 +28,8 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         self.result=[]
-        used=[False]*len(nums)
-        self.solve(nums,[],used)
+        self.set1=set()
+        # used=[False]*len(nums)
+        self.solve(nums,[])
         return self.result
         
