@@ -11,6 +11,7 @@ DSA Soln
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 ## String
 |  |
 | ------- |
@@ -38,6 +39,7 @@ DSA Soln
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
