@@ -45,6 +45,7 @@ DSA Soln
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/partthh/Leetcode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/partthh/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Matrix
 |  |
 | ------- |
