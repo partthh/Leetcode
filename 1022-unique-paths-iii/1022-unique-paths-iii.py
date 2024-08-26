@@ -40,5 +40,3 @@ class Solution(object):
         self.solve(grid,start_row, start_col,0)
         return self.result
             
-
-        
