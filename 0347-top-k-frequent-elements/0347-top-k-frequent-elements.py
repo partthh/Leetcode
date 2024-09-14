@@ -9,10 +9,8 @@ class Solution(object):
         """
         l1=[]
         x1=Counter(nums)
-        for i in range(k):
-            max1=max(x1,key=x1.get)
-            l1.append(max1)
-            del x1[max1]
+        for i,f in x1.most_common(k):
+            l1.append(i)
         return l1
 
         
