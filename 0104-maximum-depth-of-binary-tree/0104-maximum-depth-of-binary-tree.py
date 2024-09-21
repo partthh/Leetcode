@@ -11,23 +11,23 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        level=[]
+        depth=0
         
         if not root :
             return 0
         
         queue=deque([root])
         while queue:
-            current=[]
+            # current=[]
             n=len(queue)
             for i in range(n):
                 x1=queue.popleft()
-                current.append(x1.val)
+                # current.append(x1.val)
 
                 if x1.left:
                     queue.append(x1.left)
 
                 if x1.right:
                     queue.append(x1.right)
-            level.append(current)
-        return len(level)
+            depth+=1
+        return depth
