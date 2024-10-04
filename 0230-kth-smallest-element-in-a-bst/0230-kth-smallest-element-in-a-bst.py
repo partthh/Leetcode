@@ -6,17 +6,20 @@
 #         self.right = right
 class Solution(object):
     def __init__(self):
-        self.ans=[]
-    def helper(self,root):
-        if not root:
+        self.ans=0
+        self.result=None
+    def helper(self,root,k):
+        if not root or self.result is not None:
             return None
-        
-        self.helper(root.left)
-        self.ans.append(root.val)
-        self.helper(root.right)
-            # elif( root.right):
-            #     root=self.kthSmallest(root.right,k)
-        return self.ans
+
+        self.helper(root.left,k)
+        # (root.val)
+        self.ans+=1
+        if self.ans==k:
+            self.result=root.val
+            return 
+        self.helper(root.right,k)
+        # return -1
     def kthSmallest(self, root, k):
         """
         :type root: TreeNode
@@ -26,8 +29,8 @@ class Solution(object):
         # ans=set()
         if not root:
             return None
-        arr1=[]
-        arr1=self.helper(root)
-        arr1.sort()
-        x=arr1[k-1]
-        return x
+        # arr1=[]
+        # count=1
+        self.helper(root,k)
+
+        return self.result
