@@ -13,14 +13,12 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
-        if root is None or root==q or root==p:
-            return root
-        leftt=self.lowestCommonAncestor(root.left,p,q)
-        rightt=self.lowestCommonAncestor(root.right,p,q)
-        if leftt is None:
-            return rightt
-        if rightt is None:
-            return leftt
-        else:
-            return root
+        if not root:
+            return None
+        curr=root.val
+        if p.val>root.val and q.val>root.val:
+            return self.lowestCommonAncestor(root.right,p,q)
+        if curr>p.val and curr>q.val:
+            return self.lowestCommonAncestor(root.left,p,q)
+        return root
         
