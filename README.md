@@ -43,6 +43,7 @@ DSA Soln
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/partthh/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Backtracking
