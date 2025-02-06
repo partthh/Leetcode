@@ -17,6 +17,7 @@ DSA Soln
 | ------- |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
+| [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
 ## String
 |  |
@@ -33,6 +34,7 @@ DSA Soln
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0136-single-number](https://github.com/partthh/Leetcode/tree/master/0136-single-number) |
+| [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/partthh/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -93,6 +95,7 @@ DSA Soln
 ## Two Pointers
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
 ## Design
 |  |
