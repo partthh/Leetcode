@@ -5,10 +5,9 @@ class Solution(object):
         :rtype: int
         """
         n=len(nums)
-        arr=[0]*(n+1)
-        for i in range(n):
-            arr[nums[i]]+=1
-
-        for i in range(0,n+1):
-            if(arr[i]==0):
-                return i
+        sum1=n*(n+1)/2
+        sum2=0
+        for i in range(len(nums)):
+            sum2+=nums[i]
+        return sum1-sum2
+        
