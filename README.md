@@ -34,6 +34,7 @@ DSA Soln
 | [0001-two-sum](https://github.com/partthh/Leetcode/tree/master/0001-two-sum) |
 | [0046-permutations](https://github.com/partthh/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
+| [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/partthh/Leetcode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -103,6 +104,7 @@ DSA Soln
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -113,6 +115,7 @@ DSA Soln
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/partthh/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
