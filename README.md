@@ -13,6 +13,7 @@ DSA Soln
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Math
 |  |
@@ -49,6 +50,7 @@ DSA Soln
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/partthh/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
@@ -282,4 +284,8 @@ DSA Soln
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
