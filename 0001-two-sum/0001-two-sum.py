@@ -5,8 +5,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        dict1={}
-        for i ,num in enumerate(nums):
-            if target-num in dict1:
-                return [i,dict1[target-num]]
-            dict1[num]=i
+        # set1=dict{}
+        # rem=0
+        for i in range(len(nums)):
+            rem=0
+            for j in range(i+1,len(nums)):
+                rem=target-nums[i]
+                if rem ==nums[j]:
+                    return [i,j]
+                    
+
