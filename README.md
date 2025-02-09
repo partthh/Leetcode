@@ -32,6 +32,7 @@ DSA Soln
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/partthh/Leetcode/tree/master/0001-two-sum) |
+| [0031-next-permutation](https://github.com/partthh/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/partthh/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
@@ -109,6 +110,7 @@ DSA Soln
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/partthh/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
