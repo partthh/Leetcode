@@ -55,6 +55,7 @@ DSA Soln
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/partthh/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Backtracking
 |  |
 | ------- |
@@ -112,6 +113,7 @@ DSA Soln
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Design
 |  |
 | ------- |
@@ -274,4 +276,8 @@ DSA Soln
 | [0450-delete-node-in-a-bst](https://github.com/partthh/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
