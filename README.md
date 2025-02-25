@@ -42,6 +42,7 @@ DSA Soln
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/partthh/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0134-gas-station](https://github.com/partthh/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/partthh/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
@@ -182,6 +183,7 @@ DSA Soln
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/partthh/Leetcode/tree/master/0134-gas-station) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Stack
 |  |
