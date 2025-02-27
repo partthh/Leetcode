@@ -4,13 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        n=len(nums)
-        hashset={}
-        for i in range(n):
-            if(nums[i] in hashset):
-                hashset[nums[i]]+=1
+        set1={}
+        for i in nums:
+            
+            if i in set1:
+                set1[i]+=1
             else:
-                hashset[nums[i]]=1
-        for key,value in hashset.items():
-            if(value==1):
-                return key       
+                set1[i]=1
+        for key,value in set1.items():
+            if value==1:
+                return key
