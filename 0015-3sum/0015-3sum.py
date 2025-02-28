@@ -8,22 +8,25 @@ class Solution(object):
         # j=len(nums)-1
         l1=[]
         nums.sort()
-        for k in range(len(nums)-2):
+        for k in range(len(nums)):
+            if k!=0 and nums[k]==nums[k-1]:
+                continue
             left=k+1
             right=len(nums)-1
-            # print(k, left, right)
             while left<right:
-                # print( left, right)
                 if nums[left]+nums[right]+nums[k]== 0:
-                    if([nums[left],nums[right],nums[k]] not in l1):
 
-                        l1.append([nums[left],nums[right],nums[k]])
+                    l1.append([nums[left],nums[right],nums[k]])
+                     
                     left+=1
-                    # break
-                elif nums[left]+nums[right]+nums[k]>0:
                     right-=1
+                    while left<right and nums[left]==nums[left-1]:
+                        left+=1
+                    while left<right and nums[right]==nums[right+1]:
+                        right-=1
+                elif (nums[left]+nums[right]+nums[k]>0):
+                        right-=1
                 else:
-                    left+=1
-            # while k<=len(nums)-3 and nums[k]==nums[k+1]:
-                # k+=1
+                        left+=1
+
         return l1
