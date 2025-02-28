@@ -1,24 +1,25 @@
 class Solution(object):
-    def subarraySum(self, nums, k):
+    def subarraySum(self, arr, k):
         """
         :type nums: List[int]
         :type k: int
         :rtype: int
         """
-        set1={0:1}
+        hash1={}
         sum1=0
         count=0
-        # set1[0]=1
-        # remi=0
-        for i in range(len(nums)):
+        for i in range(len(arr)):
+            sum1+=arr[i]
+            if sum1==k:
+                count+=1
+            if sum1-k in hash1:
+                # maxi=max(maxi,length)
+                count+=hash1[sum1-k]
 
-            sum1+=nums[i]
-            if (sum1-k in set1):
-                count+=set1[sum1-k]
-            if sum1 in set1:
-                set1[sum1]+=1
+            if sum1 not in hash1:
+                hash1[sum1]=1
+            # if hash1[sum1] not in 
             else:
-                set1[sum1]=1
- 
+                hash1[sum1]=hash1[sum1]+1
         return count
         
