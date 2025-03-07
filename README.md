@@ -39,6 +39,7 @@ DSA Soln
 | [0015-3sum](https://github.com/partthh/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/partthh/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/partthh/Leetcode/tree/master/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/partthh/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/partthh/Leetcode/tree/master/0035-search-insert-position) |
 | [0046-permutations](https://github.com/partthh/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
@@ -300,6 +301,7 @@ DSA Soln
 ## Binary Search Tree
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/partthh/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/partthh/Leetcode/tree/master/0035-search-insert-position) |
 | [0098-validate-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/partthh/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
