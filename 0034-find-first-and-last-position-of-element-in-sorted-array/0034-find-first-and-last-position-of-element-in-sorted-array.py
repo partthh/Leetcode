@@ -5,41 +5,35 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        def findFloor(nums, target):
-        #Your code here
+        def Upper(nums,target):
             low=0
             high=len(nums)-1
             ans=-1
             while low<=high:
                 mid=(low+high)//2
-                if(nums[mid]==target):
+                if (nums[mid]==target):
                     ans=mid
-                    high=mid-1
-                elif nums[mid]<target:
                     low=mid+1
-                    
-                else:
-                    # ans=mid
+                elif(nums[mid]>target):
                     high=mid-1
+                else:
+                    low=mid+1
             return ans
-        def ceil(nums,target):
+        def Lower(nums,target):
             low=0
             high=len(nums)-1
             ans=-1
             while low<=high:
                 mid=(low+high)//2
-                if(nums[mid]==target):
+                if (nums[mid]==target):
                     ans=mid
-                    low=mid+1
-                elif(nums[mid]<target):
-                    low=mid+1
-                else:
                     high=mid-1
+                elif(nums[mid]>target):
+                    high=mid-1
+                else:
+                    low=mid+1
             return ans
-        x1=findFloor(nums,target)
-        x2=ceil(nums,target)
-        # if x1==len(nums) or nums[x1]!=target :
-            # return [-1,-1]
-        # else:
-        return[x1,x2]
-        # return [x1,x2]
+        x1=Upper(nums,target)
+        x2=Lower(nums,target)
+
+        return [x2,x1]
