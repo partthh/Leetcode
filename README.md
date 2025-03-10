@@ -31,6 +31,7 @@ DSA Soln
 | ------- |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Array
 |  |
@@ -222,6 +223,7 @@ DSA Soln
 | [0094-binary-tree-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Tree
 |  |
 | ------- |
