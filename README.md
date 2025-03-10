@@ -12,6 +12,7 @@ DSA Soln
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/partthh/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/partthh/Leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
 | [0229-majority-element-ii](https://github.com/partthh/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -24,6 +25,7 @@ DSA Soln
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [2032-largest-odd-number-in-string](https://github.com/partthh/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -144,6 +146,7 @@ DSA Soln
 | [0088-merge-sorted-array](https://github.com/partthh/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/partthh/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
