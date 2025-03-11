@@ -5,17 +5,10 @@ class Solution(object):
         :type goal: str
         :rtype: bool
         """
-        n=0
-        
-        while n!=len(s):
-            s=list(s)
-            a1=s[0]
-            for i in range(1,len(s)):
-                s[i-1]=s[i]
-            s[-1]=a1
-            s="".join(s)
-            if s==goal:
-                return True
-            n+=1 
-
-        return False
+        if len(s)!=len(goal):
+            return False
+        s1=s+s
+        if goal in s1:
+            return True
+        else:
+            return False
