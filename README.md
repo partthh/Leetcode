@@ -13,6 +13,7 @@ DSA Soln
 | [0128-longest-consecutive-sequence](https://github.com/partthh/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/partthh/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
+| [0205-isomorphic-strings](https://github.com/partthh/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/partthh/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -34,6 +35,7 @@ DSA Soln
 | ------- |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/partthh/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/partthh/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
