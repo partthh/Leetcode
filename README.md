@@ -7,6 +7,7 @@ DSA Soln
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/partthh/Leetcode/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/partthh/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -24,6 +25,7 @@ DSA Soln
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/partthh/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
@@ -35,6 +37,7 @@ DSA Soln
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/partthh/Leetcode/tree/master/0008-string-to-integer-atoi) |
+| [0012-integer-to-roman](https://github.com/partthh/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/partthh/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/partthh/Leetcode/tree/master/0205-isomorphic-strings) |
