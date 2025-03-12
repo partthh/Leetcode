@@ -42,6 +42,7 @@ DSA Soln
 | [0812-rotate-string](https://github.com/partthh/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/partthh/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/partthh/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Array
 |  |
@@ -238,6 +239,7 @@ DSA Soln
 | [0144-binary-tree-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/partthh/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Tree
 |  |
 | ------- |
