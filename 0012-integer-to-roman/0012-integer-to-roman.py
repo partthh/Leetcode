@@ -19,19 +19,12 @@ class Solution(object):
             (4, 'IV'),
             (1, 'I')]
         result=""
-        while num!=0:
-            min1=0
-            x1=0
-            value1=""
-            for i,j in values:
-                if i<=num:
-
-                    min1=i
-                    value1=j
-                    break
-            x1=num//min1
-            num=num%min1
-            result+=value1*x1
+        
+        result = ""
+        for value, symbol in values:
+            while num >= value:  
+                num -= value
+                result += symbol  
         return result
 
 
