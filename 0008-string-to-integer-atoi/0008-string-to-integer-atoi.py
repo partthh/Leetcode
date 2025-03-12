@@ -15,13 +15,10 @@ class Solution:
             i+=1
         result=0
         while i<n and s[i].isdigit():
-            if result>(INT_MAX-int(s[i]))//10:
-                if sign==1:
-                    return INT_MAX
-                else:
-                    return INT_MIN
-
-
             result=result*10+int(s[i])
+            if result*sign>INT_MAX:
+                return INT_MAX
+            if result*sign<INT_MIN: 
+                return INT_MIN
             i+=1
         return sign*result
