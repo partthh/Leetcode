@@ -4,12 +4,12 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        x1=str(x)
-        x2=""
-        for i in range (len(x1)-1,-1,-1):
-            x2+=x1[i]
-        print(x2)
-        if x1==(x2):
-            return True
-        else:
+        if x<0:
             return False
+        x1=x
+        x2=0
+        while x1>0:
+            n=x1%10
+            x2=(x2*10)+n
+            x1=x1//10
+        return x2==x
