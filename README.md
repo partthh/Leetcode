@@ -22,6 +22,7 @@ DSA Soln
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/partthh/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Math
 |  |
 | ------- |
@@ -97,6 +98,7 @@ DSA Soln
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/partthh/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Backtracking
 |  |
 | ------- |
@@ -209,6 +211,7 @@ DSA Soln
 | [0229-majority-element-ii](https://github.com/partthh/Leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/partthh/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Divide and Conquer
 |  |
 | ------- |
