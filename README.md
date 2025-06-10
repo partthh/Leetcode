@@ -96,6 +96,7 @@ DSA Soln
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/partthh/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/partthh/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -185,6 +186,7 @@ DSA Soln
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -239,6 +241,7 @@ DSA Soln
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/partthh/Leetcode/tree/master/0134-gas-station) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/partthh/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Stack
@@ -348,6 +351,7 @@ DSA Soln
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Simulation
 |  |
 | ------- |
@@ -356,6 +360,7 @@ DSA Soln
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Union Find
 |  |
 | ------- |
@@ -364,4 +369,8 @@ DSA Soln
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/partthh/Leetcode/tree/master/0812-rotate-string) |
+## Sliding Window
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
