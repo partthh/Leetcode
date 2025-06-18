@@ -5,13 +5,21 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        # set1=dict{}
-        # rem=0
+        arr1=[]
+        sum1=0
+        set1={}
         for i in range(len(nums)):
-            rem=0
-            for j in range(i+1,len(nums)):
-                rem=target-nums[i]
-                if rem ==nums[j]:
-                    return [i,j]
-                    
+            set1[nums[i]]=i
+        for j in range(len(nums)):
+            if target-nums[j] in set1:
+                ind=set1[target-nums[j]]
+                if j!=ind:
+                    arr1.append(j)
+                    arr1.append(set1[target-nums[j]])
+                    return arr1
 
+
+
+            
+
+        
