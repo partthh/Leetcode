@@ -1,11 +1,17 @@
-from collections import Counter
 class Solution(object):
     def majorityElement(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        dict1=Counter(nums)
-        for i,j in dict1.items():
-            if 2*j>len(nums):
-                return i
+        count=1
+        ele=nums[0]
+        for i in range(1,len(nums)):
+            if count==0:
+                ele=nums[i]
+                count+=1
+            elif(nums[i]==ele):
+                count+=1
+            else:
+                count-=1
+        return ele
