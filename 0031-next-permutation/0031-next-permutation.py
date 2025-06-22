@@ -4,19 +4,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        inde=-1
+        x=-1
         for i in range(len(nums)-2,-1,-1):
-            if(nums[i]<nums[i+1]):
-                inde=i
+            if nums[i]<nums[i+1]:
+                x=i
+                print(x)
                 break
-        if inde==-1:
+
+        if x==-1:
             nums.reverse()
             return nums
         else:
-            for i in range(len(nums)-1,i,-1):
-                if nums[i]>nums[inde]:
-                    nums[i],nums[inde]=nums[inde],nums[i]
+            for i in range(len(nums)-1,-1,-1):
+                if nums[x]<nums[i]:
+                    nums[x],nums[i]=nums[i],nums[x]
                     break
-            nums[inde+1:]=reversed(nums[inde+1:])
-
-        
+            nums[x+1:]=reversed(nums[x+1:])
