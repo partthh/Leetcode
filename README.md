@@ -91,6 +91,7 @@ DSA Soln
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
+| [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
