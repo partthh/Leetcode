@@ -1,17 +1,21 @@
 class Solution(object):
-    def longestConsecutive(self,nums):
-        s1=set()
-        # cnt=
-        cnt=0
-        longest=0
-        for i in range(len(nums)):
-            s1.add(nums[i])
-        for i in nums:
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        set1=set(nums)
+        maxi=0
+        longi=0
+        for i in set1:
             x=i
-            if x-1 not in s1:
-                cnt=1
-                while x+1 in s1:
+            if x-1 not in set1:
+                longi=1
+                while x+1 in set1 :
+                    longi+=1
                     x+=1
-                    cnt+=1
-                longest=max(longest,cnt)
-        return longest
+                maxi=max(maxi,longi)
+        return maxi
+        
