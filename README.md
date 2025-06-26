@@ -9,6 +9,7 @@ DSA Soln
 | [0001-two-sum](https://github.com/partthh/Leetcode/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/partthh/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/partthh/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/partthh/Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -65,6 +66,7 @@ DSA Soln
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/partthh/Leetcode/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/partthh/Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/partthh/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -128,6 +130,7 @@ DSA Soln
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 ## Dynamic Programming
 |  |
