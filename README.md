@@ -32,6 +32,7 @@ DSA Soln
 | [0012-integer-to-roman](https://github.com/partthh/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
+| [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
@@ -63,6 +64,7 @@ DSA Soln
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/partthh/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/partthh/Leetcode/tree/master/0035-search-insert-position) |
 | [0046-permutations](https://github.com/partthh/Leetcode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/partthh/Leetcode/tree/master/0056-merge-intervals) |
@@ -130,6 +132,7 @@ DSA Soln
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 ## Dynamic Programming
