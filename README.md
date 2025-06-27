@@ -67,6 +67,7 @@ DSA Soln
 | [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/partthh/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/partthh/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/partthh/Leetcode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/partthh/Leetcode/tree/master/0075-sort-colors) |
@@ -133,6 +134,7 @@ DSA Soln
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/partthh/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 ## Dynamic Programming
@@ -362,6 +364,7 @@ DSA Soln
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/partthh/Leetcode/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Prefix Sum
 |  |
