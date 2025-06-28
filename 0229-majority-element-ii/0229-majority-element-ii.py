@@ -4,39 +4,35 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        # ele=nums[0]
-
         arr=[]
-        if not nums:
-            return []
         count=0
         count1=0
         ele=None
         ele1=None
-        for i in range(len(nums)):
-            if ele==nums[i]:
+        for i in nums:
+            if i==ele:
                 count+=1
-            elif ele1==nums[i]:
+            elif(i==ele1):
                 count1+=1
-            elif count==0:
+            elif(count==0):
                 count+=1
-                ele=nums[i]
-            elif count1==0:
+                ele=i
+            elif(count1==0):
                 count1+=1
-                ele1=nums[i]
+                ele1=i
             else:
                 count-=1
                 count1-=1
         count2=0
         count3=0
         for i in nums:
-            if i==ele:
+            if ele==i:
                 count2+=1
-            elif i==ele1:
+            elif (ele1==i):
                 count3+=1
-            
-        if count2>(len(nums)//3):
+        print(ele,ele1)
+        if count2>len(nums)//3:
             arr.append(ele)
-        if count3>(len(nums)//3):
+        if(count3>len(nums)//3):
             arr.append(ele1)
-        return arr
+        return arr        
