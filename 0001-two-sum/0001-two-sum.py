@@ -5,21 +5,20 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        arr1=[]
-        sum1=0
-        set1={}
+        arr=[]
+        hashset={}
+        for i,j in enumerate((nums)):
+            hashset[j]=i
+        print(hashset)
         for i in range(len(nums)):
-            set1[nums[i]]=i
-        for j in range(len(nums)):
-            if target-nums[j] in set1:
-                ind=set1[target-nums[j]]
-                if j!=ind:
-                    arr1.append(j)
-                    arr1.append(set1[target-nums[j]])
-                    return arr1
-
-
-
+            if target-nums[i] in hashset and hashset[target-nums[i]]!=i :
+                # temp=hashset.get(target-i)
+                # print(temp,"okay")
+                # print(i)
+                arr.append(i)
+                arr.append(hashset[target-nums[i]])
+                return arr
+                # return ([i,hashset.get(target-nums[i])]
+                # break
+        # return arr
             
-
-        
