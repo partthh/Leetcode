@@ -7,14 +7,21 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        left=m-1
-        right=n-1
-        j=m+n-1
-        while right>=0:
-            if left>=0 and nums1[left]>nums2[right]:
-                nums1[j]=nums1[left]
-                left-=1
+        arr=[]
+        k=m-1
+        l=0
+        while k>=0 and l<n:
+            if nums2[l]<nums1[k]:
+                nums2[l],nums1[k]=nums1[k],nums2[l]
+                k-=1
+                l+=1
             else:
-                nums1[j]=nums2[right]
-                right-=1
-            j-=1
+                break
+        nums1[0:m]=sorted(nums1[0:m])
+        nums2.sort()
+        p=0
+        for i in range(m,len(nums1)):
+
+            nums1[i]=nums2[p]
+            p+=1
+        
