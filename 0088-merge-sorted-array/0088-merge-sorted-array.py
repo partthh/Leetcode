@@ -7,21 +7,29 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        arr=[]
-        k=m-1
-        l=0
-        while k>=0 and l<n:
-            if nums2[l]<nums1[k]:
-                nums2[l],nums1[k]=nums1[k],nums2[l]
-                k-=1
-                l+=1
+        arr=[0]*(m+n)
+        left=0 
+        right=0
+        index=0
+        while left<m and right<n:
+            if nums1[left]<=nums2[right]:
+                arr[index]=nums1[left]
+                left+=1
+                index+=1
             else:
-                break
-        nums1[0:m]=sorted(nums1[0:m])
-        nums2.sort()
-        p=0
-        for i in range(m,len(nums1)):
-
-            nums1[i]=nums2[p]
-            p+=1
-        
+                arr[index]=nums2[right]
+                right+=1
+                index+=1
+        print("1",index)
+        while left<m:
+            arr[index]=nums1[left]
+            left+=1
+            index+=1
+        print("2",arr)
+        while right<n:
+            arr[index]=nums2[right]
+            right+=1
+            index+=1
+        print("3",arr)
+        for i in range(len(nums1)):
+            nums1[i]=arr[i]
