@@ -11,9 +11,8 @@ class Solution(object):
         right=n-1
         j=m+n-1
         while right>=0:
-            if(left>=0 and nums1[left]>nums2[right]):
+            if left>=0 and nums1[left]>nums2[right]:
                 nums1[j]=nums1[left]
-                # j-=1
                 left-=1
             else:
                 nums1[j]=nums2[right]
