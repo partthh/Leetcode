@@ -4,16 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        prefix=1
-        sufix=1
-        maxi=float('-inf')
+        pre=1
+        suf=1
+        maxi=-float('inf')
         for i in range(len(nums)):
-            if prefix==0:
-                prefix=1
-            if sufix==0:
-                sufix=1
-            prefix*=nums[i]
-            sufix*=nums[len(nums)-i-1]
-            maxi=max(maxi,max(prefix,sufix))
+            if pre==0:
+                pre=1
+            if suf==0:
+                suf=1
+            pre*=nums[i]
+            suf*=nums[len(nums)-i-1]
+            maxi=max(maxi,max(pre,suf))
         return maxi
 
+            
