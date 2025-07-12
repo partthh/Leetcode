@@ -11,28 +11,20 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[List[int]]
         """
-        
         if not root:
             return []
-        result=[]
         queue=deque([root])
+        res=[]
         while queue:
-            arr=[]
+            temp=[]
             len1=len(queue)
-            
             for i in range(len1):
                 n1=queue.popleft()
-                arr.append(n1.val)
+                # print(n1.val)
+                temp.append(n1.val)
                 if n1.left:
                     queue.append(n1.left)
                 if n1.right:
                     queue.append(n1.right)
-            result.append(arr)
-        return result
-
-
-            
-
-
-
-        
+            res.append(temp)
+        return res
