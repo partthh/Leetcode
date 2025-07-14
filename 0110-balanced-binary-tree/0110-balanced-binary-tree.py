@@ -10,18 +10,31 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: bool
         """
-        return self.fun1(root)!=-1
+        if not root:
+            return True
+        l1=self.fun1(root.left)
+        r1=self.fun1(root.right)
+        if abs(l1-r1)>1:
+            return False
+        return self.isBalanced(root.left) and self.isBalanced(root.right)
+        
     def fun1(self,root):
         if not root:
             return 0
-        l1=self.fun1(root.left)
-        if l1==-1:
-            return -1
-        r1=self.fun1(root.right)
-        if r1==-1:
-            return -1
-        if abs(l1-r1)>1:
-            return -1
-        return 1+max(l1,r1)
-    
+        queue=deque([root])
+        dept=0
+        while queue:
+            
+            len1=len(queue)
+            # dept+=1
+            for i in range(len1):
+                n1=queue.popleft()
+                if n1.left:
+                    queue.append(n1.left)
+                if n1.right:
+                    queue.append(n1.right)
+            dept+=1
+        return dept
+
+
         
