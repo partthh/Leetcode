@@ -7,18 +7,16 @@
 class Solution(object):
     def maxPathSum(self, root):
         """
-        :type root: TreeNode
+        :type root: Optional[TreeNode]
         :rtype: int
         """
-        maxi = [float('-inf')]
-        # maxi=float("-inf")
-        self.sum1(root,maxi)
-        return maxi[0]
-    def sum1(self,root,maxi):
+        self.maxi=float('-inf')
+        self.fun1(root)
+        return self.maxi
+    def fun1(self,root):
         if not root:
             return 0
-        leftsum=max(0,self.sum1(root.left,maxi))
-        rightsum=max(0,self.sum1(root.right,maxi))
-        maxi[0]=max(maxi[0],leftsum+rightsum+root.val)
-        return root.val+max(leftsum,rightsum)
-    
+        l1=max(0,self.fun1(root.left))
+        r1=max(0,self.fun1(root.right))
+        self.maxi=max(self.maxi,l1+r1+root.val)
+        return root.val+max(l1,r1)
