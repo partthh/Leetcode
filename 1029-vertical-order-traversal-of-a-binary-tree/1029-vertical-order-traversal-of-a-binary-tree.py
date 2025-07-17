@@ -4,29 +4,27 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque,defaultdict
 class Solution(object):
     def verticalTraversal(self, root):
         """
-        :type root: TreeNode
+        :type root: Optional[TreeNode]
         :rtype: List[List[int]]
         """
-        
-        nodes=defaultdict(lambda: defaultdict(list))
-        queue1=deque([(root,(0,0))])
-        while queue1:
-            temp,(x,y)=queue1.popleft()
+        nodes=defaultdict(lambda:defaultdict(list))
+        res=[]
+
+        queue=deque([(root,(0,0))])
+        while queue:
+            temp,(x,y)=queue.popleft()
             nodes[x][y].append(temp.val)
             if temp.left:
-                queue1.append((temp.left,(x-1,y+1)))
+                queue.append((temp.left,(x-1,y+1)))
             if temp.right:
-                queue1.append((temp.right,(x+1,y+1)))
-        result=[]
-        for x in sorted( nodes.keys()):
-            dummy=[]
-            for y in sorted(nodes[x].keys()):
-                dummy.extend(sorted(nodes[x][y]))
-            result.append(dummy)
-        return result
+                queue.append((temp.right,(x+1,y+1)))
 
-        
+        for x in sorted(nodes):
+            temp=[]
+            for y in sorted (nodes[x]):
+                temp.extend(sorted(nodes[x][y]))
+            res.append(temp)
+        return res
