@@ -12,23 +12,19 @@ class Solution(object):
         """
         if not root:
             return []
-        res=[]
+
         res1=[]
         queue=deque([root])
         while queue:
             len1=len(queue)
-            temp=[]
             for i in range(len1):
                 n1=queue.popleft()
-                temp.append(n1.val)
+                if i==len1-1:
+                    res1.append(n1.val)
                 if n1.left:
                     queue.append(n1.left)
                 if n1.right:
                     queue.append(n1.right)
-            res.append(temp)
-        # print
-        for i in range(len(res)):
-            res1.append(res[i][-1])
         return res1
 
         
