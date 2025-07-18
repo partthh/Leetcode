@@ -14,10 +14,11 @@ class Solution(object):
             return []
         queue=deque([root])
         res=[]
+        x1=False
         while queue:
             temp=[]
             n=len(queue)
-            x1=0
+            
             for i in range(n):
 
                 n1=queue.popleft()
@@ -26,10 +27,13 @@ class Solution(object):
                     queue.append(n1.left)
                 if n1.right:
                     queue.append(n1.right)
-
+            if x1:
+                temp.reverse()
             res.append(temp)
-        for i in range(1,len(res),2):
-            res[i]=res[i][::-1]
+            if x1:
+                x1=False
+            else:
+                x1=True
 
         return res
 
