@@ -12,41 +12,15 @@ class Solution(object):
         """
         if not root:
             return False
-        if not root.left and not root.right:
+        # if not root.left or not root.right:
+            # return False
+        return self.fun1(root.left,root.right)
+
+    def fun1(self,t1,t2):
+        if not t1 and not t2:
             return True
-        if not root.left or not root.right:
+        if not t1 or not t2:
             return False
-        if root.left.val!=root.right.val:
+        if t1.val!=t2.val:
             return False
-        x1=self.fun1(root.left) 
-        x2=self.fun1(root.right)
-        for i in range(len(x2)):
-            x2[i].reverse()
-        if x1!=x2:
-            return False
-        return True
-    
-    def fun1(self,root):
-        if not root:
-            return []
-        queue=deque([root])
-        res=[]
-        while queue:
-            l1=len(queue)
-            temp=[]
-            for i in range(l1):
-                n1=queue.popleft()
-                if n1:
-
-                    temp.append(n1.val)
-                    queue.append(n1.left)
-                    queue.append(n1.right)
-                else:
-                    temp.append(None)
-
-                # if n1.left:
-                #     queue.append(root.left)
-                # if n1.right:
-                #     queue.append(root.left)
-            res.append(temp)
-        return res
+        return self.fun1(t1.left,t2.right) and self.fun1(t1.right,t2.left)
