@@ -13,37 +13,13 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
-        res=[]
-        res1=[]
-        self.fun1(root,res,p)
-        self.fun1(root,res1,q)
-        print([node.val for node in res])
-        print([node.val for node in res1])
-        i=0
-        # if len(res)==2:
-            # return res[0]
-        while i<len(res) and i<len(res1) and res[i]==res1[i]:
-            i+=1
-        return res[i-1]
-        # print(i)
-        # if len(res)>len(res1):
-# 
-            # return res[i]
-        # else:
-            # return res1[i]
-    def fun1(self,root,res,tar):
-        if not root:
-            return False
-        res.append(root)
-        if root==tar:
-
-            return True
-        if self.fun1(root.left,res,tar) or self.fun1(root.right,res,tar):
-            return True
-        # else:
-        #     self.fun1(root.left,res,tar)
-        #     self.fun1(root.right,res,tar)
-        res.pop()
-        return False
-
-        
+        if root is None or root==p or root==q:
+            return root
+        l1=self.lowestCommonAncestor(root.left,p,q)
+        r1=self.lowestCommonAncestor(root.right,p,q)
+        if not l1:
+            return r1
+        elif (not r1):
+            return l1
+        else:
+            return root
