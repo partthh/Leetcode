@@ -10,23 +10,25 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
+        res=1
         if not root:
             return 0
-        maxi=1
         queue=deque([[root,0]])
+        # first,last=None,None
         while queue:
-            l1=len(queue)
-            useless,mini=queue[0]
-            for i in range(l1):
-                curr,index=queue.popleft()
-                curr_no=index-mini
+            len1=len(queue)
+            usele,mini=queue[0]
+            for i in range(len1):
+                node,index=queue.popleft()
+                curr_index=index-mini
                 if i==0:
-                    first=curr_no
-                if i==l1-1:
-                    last=curr_no
-                if curr.left:
-                    queue.append([curr.left,2*curr_no+1])
-                if curr.right:
-                    queue.append([curr.right,2*curr_no+2])
-            maxi=max(maxi,last-first+1)
-        return maxi  
+                    first=curr_index
+                if i==len1-1:
+
+                    last=curr_index
+                if node.left:
+                    queue.append([node.left,2*curr_index+1])
+                if node.right:
+                    queue.append([node.right,2*curr_index+2])
+            res=max(res,last-first+1)
+        return res
