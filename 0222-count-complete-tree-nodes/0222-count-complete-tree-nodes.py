@@ -5,15 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def fun1(self,root,dict1):
+    def fun1(self,root,count):
         if not root:
-            return
-        if root.left:
-            dict1[root.left]=root
-            self.fun1(root.left,dict1)
-        if root.right:
-            dict1[root.right]=root
-            self.fun1(root.right,dict1)
+            return 0
+        
+        l1=self.fun1(root.left,count)
+        r1=self.fun1(root.right,count)
+        return 1+l1+r1
     def countNodes(self, root):
         """
         :type root: Optional[TreeNode]
@@ -21,25 +19,7 @@ class Solution(object):
         """
         if not root:
             return 0
-        dict1={}
-        self.fun1(root,dict1)
-        visited=set()
-        visited.add(root)
-        queue=deque([root])
-
-        while queue:
-            len1=len(queue)
-            for i in range(len1):
-                node=queue.popleft()
-                if node.left and node.left not in visited:
-                    queue.append(node.left)
-                    visited.add(node.left)
-                if node.right and node.right not in visited:
-                    queue.append(node.right)
-                    visited.add(node.right)
-                if node in dict1 and dict1[node] not in visited:
-                    queue.append(dict1[node])
-                    visited.append(dict1[node])
-        return len(visited)
-
+        count=0
+        count=self.fun1(root,count)
+        return count
         
