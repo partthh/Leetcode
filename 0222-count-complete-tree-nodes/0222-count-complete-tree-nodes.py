@@ -19,7 +19,6 @@ class Solution(object):
         """
         if not root:
             return 0
-        count=0
-        count=self.fun1(root,count)
-        return count
+
+        return self.fun1(root,count)
         
