@@ -4,18 +4,17 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+from collections import deque
 class Solution(object):
-    def inorder(self,root,parent_map):
-
+    def fun1(self,root,dict1):
         if not root:
-            return
-        if root.left:
-            parent_map[root.left]=root
-            self.inorder(root.left,parent_map)
+            return 
+        if root.left :
+            dict1[root.left]=root
+            self.fun1(root.left,dict1)
         if root.right:
-            parent_map[root.right]=root
-            self.inorder(root.right,parent_map)
+            dict1[root.right]=root
+            self.fun1(root.right,dict1)
     def distanceK(self, root, target, k):
         """
         :type root: TreeNode
@@ -23,32 +22,30 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-
-        parent_set={}
-        self.inorder(root,parent_set)
-        visited=set()
-        visited.add(target)
+        # if not root:
+            # return 
+        dict1={}
+        self.fun1(root,dict1)
+        vis=set()
+        vis.add(target)
         queue=deque([target])
         level=0
-        res=[]
         while queue:
             if level==k:
                 break
             len1=len(queue)
             for i in range(len1):
-                node=queue.popleft()
-                if node.left and node.left not in visited:
-                    queue.append(node.left)
-                    visited.add(node.left)
-                if node.right and node.right not in visited:
-                    queue.append(node.right)
-                    visited.add(node.right)
-                if node in parent_set and parent_set[node] not in visited:
-                    queue.append(parent_set[node])
-                    visited.add(parent_set[node])
+                n1=queue.popleft()
+
+                if n1.left and n1.left not in vis:
+                    queue.append(n1.left)
+                    vis.add(n1.left)
+                if n1.right and n1.right not in vis:
+                    queue.append(n1.right)
+                    vis.add(n1.right)
+                if n1 in dict1 and dict1[n1] not in vis:
+                    queue.append(dict1[n1])
+                    vis.add(dict1[n1])
+
             level+=1
-
-        for i in queue:
-            res.append(i.val)
-        return res
-
+        return [i.val for i in queue]
