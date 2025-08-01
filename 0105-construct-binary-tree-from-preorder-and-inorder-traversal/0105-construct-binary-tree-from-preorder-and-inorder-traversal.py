@@ -4,30 +4,24 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import Counter
 class Solution(object):
-    # def helper(self,inorder_s,inorder_e,preorder_s,preorder_e):
+    def fun1(self,preorder,inorder,start,end,dict1):
+        if start>end:
+            return None
+        root=TreeNode(preorder[self.ind])
+        # TreeNode.val=preorder[ind]
+        i=dict1[root.val]
+        self.ind+=1
+        root.left=self.fun1(preorder,inorder,start,i-1,dict1)
+        root.right=self.fun1(preorder,inorder,i+1,end,dict1)
+        return root
 
     def buildTree(self, preorder, inorder):
         """
         :type preorder: List[int]
         :type inorder: List[int]
-        :rtype: TreeNode
+        :rtype: Optional[TreeNode]
         """
-        if inorder:
-            iindex=inorder.index(preorder.pop(0))
-            root=TreeNode(inorder[iindex])
-            root.left= self.buildTree(preorder,inorder[:iindex])
-            root.right=self.buildTree(preorder,inorder[iindex+1:])
-            return root
-        #     inorder=inorder[:iindex]
-        #     preorder=preorder[]
-        #     buildTree(,inorder)
-
-        # arr=[]
-        # if not preorder :
-        #     return []
-        # arr[element] = 
-        
-
-        
+        dict1={x:i for i,x in enumerate(inorder)}
+        self.ind=0
+        return self.fun1(preorder,inorder,0,len(preorder)-1,dict1)
