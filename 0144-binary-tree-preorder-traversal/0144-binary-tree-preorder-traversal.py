@@ -10,16 +10,20 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
-        result=[]
-        st=[]
-        if not root:
-            return []
-        st.append(root)
-        while st:
-            ele=st.pop()
-            result.append(ele.val)
-            if ele.right:
-                st.append(ele.right)
-            if ele.left:
-                st.append(ele.left)
-        return result
+        res=[]
+        curr=root
+        while curr:
+            if not curr.left:
+                res.append(curr.val)
+                curr=curr.right
+            else:
+                next1=curr.left
+                while next1.right:
+                    next1=next1.right
+                next1.right=curr.right
+                
+                temp=curr
+                res.append(curr.val)
+                curr=curr.left
+                temp.left=None
+        return res
