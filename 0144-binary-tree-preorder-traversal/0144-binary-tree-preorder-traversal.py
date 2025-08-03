@@ -21,9 +21,6 @@ class Solution(object):
                 while next1.right:
                     next1=next1.right
                 next1.right=curr.right
-                
-                temp=curr
                 res.append(curr.val)
                 curr=curr.left
-                temp.left=None
         return res
