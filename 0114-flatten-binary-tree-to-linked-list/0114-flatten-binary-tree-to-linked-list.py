@@ -6,6 +6,9 @@
 #         self.right = right
 class Solution(object):
     def fun1(self,root):
+
+        if not root:
+            return []
         curr=root
         res=[]
         while curr:
@@ -35,12 +38,14 @@ class Solution(object):
         :rtype: None Do not return anything, modify root in-place instead.
         """
         arr=self.fun1(root)
+        if not arr:
+            return 
         for i in range(len(arr)-1):
             arr[i].left=None
             arr[i].right=arr[i+1]
-        if arr:
-            arr[-1].left=None
-            arr[-1].right=None
+        # if arr:
+        arr[-1].left=None
+        arr[-1].right=None
         
 
 
