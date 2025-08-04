@@ -10,8 +10,8 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
-        res=[]
         curr=root
+        res=[]
         while curr:
             if not curr.left:
                 res.append(curr.val)
@@ -20,7 +20,20 @@ class Solution(object):
                 next1=curr.left
                 while next1.right:
                     next1=next1.right
-                next1.right=curr.right
                 res.append(curr.val)
+                next1.right=curr.right
                 curr=curr.left
+        # res=[]
+        # curr=root
+        # while curr:
+        #     if not curr.left:
+        #         res.append(curr.val)
+        #         curr=curr.right
+        #     else:
+        #         next1=curr.left
+        #         while next1.right:
+        #             next1=next1.right
+        #         next1.right=curr.right
+        #         res.append(curr.val)
+        #         curr=curr.left
         return res
