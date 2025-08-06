@@ -10,23 +10,18 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
-        s1=[]
-        curr=root
+        if not root:
+            return []
+        s2=[]
+        s1=[root]
         res=[]
-        while curr!=None or len(s1)!=0:
-            if curr !=None:
-                s1.append(curr)
-                curr=curr.left
-            else:
-                node=s1[-1]
-                temp=node.right
-                if temp==None:
-                    temp=s1.pop()
-                    res.append(temp.val)
-                    while (len(s1)!=0 and temp==s1[-1].right ):
-                        temp=s1.pop()
-                        res.append(temp.val)
-                else:
-                    curr=temp
-
+        while s1: 
+            node=s1.pop()
+            s2.append(node.val)  
+            if node.left:
+                s1.append(node.left)
+            if node.right:
+                s1.append(node.right)
+        while s2:
+            res.append(s2.pop())
         return res
