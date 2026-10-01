@@ -14,28 +14,29 @@
  * }
  */
 class Solution {
-    public TreeNode fun1(TreeNode root1){
-        if(root1.left==null){
-            return root1.right;
+    public TreeNode fun1(TreeNode temp){
+        if(temp.left==null){
+            return temp.right;
         }
-        if(root1.right==null){
-            return root1.left;
+        if(temp.right==null){   
+            return temp.left;
         }
-        TreeNode x2=root1.right;
-        while(x2.left!=null){
-            x2=x2.left;
+        TreeNode last=temp.right;
+        while(last.left!=null){
+            last=last.left;
         }
-        x2.left=root1.left;
-        return root1.right;
+        last.left=temp.left;
+        return temp.right;
+
     }
     public TreeNode deleteNode(TreeNode root, int key) {
         if(root==null){
-            return null;
+            return root;
         }
         if(root.val==key){
             return fun1(root);
         }
-        TreeNode temp= root;
+        TreeNode temp=root;
         while(temp!=null){
             if(temp.left!=null && temp.left.val==key){
                 temp.left=fun1(temp.left);
@@ -45,14 +46,14 @@ class Solution {
                 temp.right=fun1(temp.right);
                 break;
             }
-            if(key>temp.val){
-                temp=temp.right;
-            }
-            else{
+            if(key<temp.val){
                 temp=temp.left;
             }
-            
-    }
-    return root;
+            else{
+                temp=temp.right;
+            }
+        }
+        return root;
+
     }
 }
