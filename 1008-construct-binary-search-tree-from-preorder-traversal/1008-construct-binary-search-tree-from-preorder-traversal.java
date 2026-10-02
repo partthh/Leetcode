@@ -14,29 +14,25 @@
  * }
  */
 class Solution {
+    HashMap<Integer,Integer> h1=new HashMap<>();
+    int preindex=0;
     public TreeNode bstFromPreorder(int[] preorder) {
-        TreeNode root=new TreeNode(preorder[0]);
-        for(int i=1;i<preorder.length;i++){
-            fun1(root,preorder[i]);
+        int[] inorder=preorder.clone();
+        Arrays.sort(inorder);
+        for(int i=0;i<preorder.length;i++){
+            h1.put(inorder[i],i);
         }
-        return root;
+        return fun1(preorder,0,preorder.length-1);
     }
-    public void fun1(TreeNode root,int value){
-        if(root.val>value){
-            if(root.left==null){
-                root.left=new TreeNode(value);
-            }
-            else{
-                fun1(root.left,value);
-            }
+    public TreeNode fun1(int[] preorder,int start, int end){
+        if(start>end){
+            return null;
         }
-        else{
-            if(root.right==null){
-                root.right=new TreeNode(value);
-            }
-            else{
-                fun1(root.right,value);
-            }
-        }
+        int rootvalue=preorder[preindex++];
+        TreeNode root=new TreeNode(rootvalue);
+        int pos=h1.get(rootvalue);
+        root.left=fun1(preorder,start,pos-1);
+        root.right=fun1(preorder,pos+1,end);
+        return root;
     }
 }
