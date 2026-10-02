@@ -101,6 +101,7 @@ DSA Soln
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -278,6 +279,7 @@ DSA Soln
 | [0144-binary-tree-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/partthh/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/partthh/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Tree
@@ -310,6 +312,7 @@ DSA Soln
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/partthh/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -367,6 +370,7 @@ DSA Soln
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/partthh/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -402,6 +406,7 @@ DSA Soln
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Simulation
 |  |
@@ -437,6 +442,7 @@ DSA Soln
 |  |
 | ------- |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Lifting
 |  |
 | ------- |
