@@ -13,30 +13,51 @@
  *     }
  * }
  */
-class Solution {
-    ArrayList<TreeNode> arr2 = new ArrayList<>();
-    public ArrayList<TreeNode> inorder(TreeNode root){
-        if(root==null){
-            return arr2;
-        }
-        inorder(root.left);
-        arr2.add(root);
-        inorder(root.right);
-        return arr2;
+ public class iterator{
+    Stack<TreeNode> s1=new Stack<TreeNode>();
+    Boolean reverse=true;
+    public iterator(TreeNode root,boolean isreverse){
+        reverse=isreverse;
+        fun1(root);
     }
-    public boolean findTarget(TreeNode root, int k) {
-        ArrayList<TreeNode> res=inorder(root);
-        int left=0;
-        int right=res.size()-1;
-        while(left<right){
-            if(res.get(left).val+res.get(right).val==k){
-                return true;
-            }
-            if(res.get(left).val+res.get(right).val>k){
-                right-=1;
+    public void fun1(TreeNode root){
+        while(root!=null){
+            s1.push(root);
+            if(reverse){
+                root=root.right;
             }
             else{
-                left+=1;
+                root=root.left;
+            }
+    }
+
+ }
+    public int next(){
+        TreeNode temp=s1.pop();
+        if(reverse){
+            fun1(temp.left);
+        }
+        else{
+            fun1(temp.right);
+        }
+        return temp.val;
+    }
+ }
+class Solution {
+    public boolean findTarget(TreeNode root, int k) {
+        iterator l=new iterator(root, false);
+        iterator r=new iterator(root,true);
+        int left=l.next();
+        int right=r.next();
+        while(left<right){
+            if(left+right==k){
+                return true;
+            }
+            else if(left+right<k){
+                left=l.next();
+            }
+            else{
+                right=r.next();
             }
         }
         return false;
