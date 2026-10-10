@@ -47,17 +47,14 @@ class Solution {
                 if(newr>=0 && newc>=0 && newr<x && newc<y && grid[newr][newc]==1 ){
                     grid[newr][newc]=2;
                     q1.offer(new Pair(newr,newc));
+                    fresh-=1;
                 }
             }
             }
             count+=1;
         }
-         for(int i=0;i<x;i++){
-            for(int j=0;j<y;j++){
-                if(grid[i][j]==1){
-                    return -1;
-                }
-            }
+        if(fresh>0){
+            return -1;
         }
         return count-1;
 
