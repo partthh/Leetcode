@@ -99,6 +99,7 @@ DSA Soln
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/partthh/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/partthh/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
@@ -151,6 +152,7 @@ DSA Soln
 | [0054-spiral-matrix](https://github.com/partthh/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/partthh/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -162,6 +164,7 @@ DSA Soln
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/partthh/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/partthh/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/partthh/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
@@ -408,6 +411,7 @@ DSA Soln
 | [0104-maximum-depth-of-binary-tree](https://github.com/partthh/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/partthh/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/partthh/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/partthh/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/partthh/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
