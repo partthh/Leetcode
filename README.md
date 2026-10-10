@@ -105,6 +105,7 @@ DSA Soln
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -150,6 +151,7 @@ DSA Soln
 | [0073-set-matrix-zeroes](https://github.com/partthh/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
+| [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 ## Dynamic Programming
 |  |
@@ -354,6 +356,7 @@ DSA Soln
 | [0687-longest-univalue-path](https://github.com/partthh/Leetcode/tree/master/0687-longest-univalue-path) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
@@ -408,6 +411,7 @@ DSA Soln
 | [0662-maximum-width-of-binary-tree](https://github.com/partthh/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
@@ -486,6 +490,7 @@ DSA Soln
 | ------- |
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/partthh/Leetcode/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 ## Graph Theory
 |  |
 | ------- |
