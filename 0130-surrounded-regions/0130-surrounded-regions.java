@@ -8,7 +8,7 @@ class Solution {
         for(int i=0;i<4;i++){
             int nr=row+dr[i];
             int nc=col+dc[i];
-            if(nr>0 && nc>0 && nr<x && nc<y && board[nr][nc]=='O' && vis[nr][nc]==0){
+            if(nr>=0 && nc>=0 && nr<x && nc<y && board[nr][nc]=='O' && vis[nr][nc]==0){
                 dfs(nr,nc,vis,board);
             }
         }
