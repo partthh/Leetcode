@@ -7,11 +7,11 @@ class pair{
     }
 }
 class pair1{
-    int steps;
+    // int steps;
     int node;
     int distance;
-    pair1(int steps,int node,int distance){
-        this.steps=steps;
+    pair1(int node,int distance){
+        // this.=steps;
         this.node=node;
         this.distance=distance;
     }
@@ -31,13 +31,12 @@ class Solution {
         Arrays.fill(dist,Integer.MAX_VALUE);
         dist[src]=0;
         Queue<pair1> q1=new LinkedList<>();
-        q1.add(new pair1(0,src,0));
+        q1.add(new pair1(src,0));
         int level=0;
         while(!q1.isEmpty() && level<=k){
             int size=q1.size();
             for(int i=0;i<size;i++){
                 pair1 x=q1.poll();
-                int s1=x.steps;
                 int node=x.node;
                 int distance=x.distance;
 
@@ -46,7 +45,7 @@ class Solution {
                     int n1=edge.first;
                     if(distance+price<dist[n1]){
                         dist[n1]=distance+price;
-                        q1.add(new pair1(s1+1,n1,distance+price));
+                        q1.add(new pair1(n1,distance+price));
                     }
                 }
             }
