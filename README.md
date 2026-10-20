@@ -116,6 +116,7 @@ DSA Soln
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/partthh/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
@@ -163,6 +164,7 @@ DSA Soln
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/partthh/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -238,6 +240,7 @@ DSA Soln
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Data Stream
@@ -374,6 +377,7 @@ DSA Soln
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
@@ -438,6 +442,7 @@ DSA Soln
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/partthh/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
 |  |
@@ -462,6 +467,7 @@ DSA Soln
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Simulation
 |  |
@@ -518,6 +524,7 @@ DSA Soln
 | [0547-number-of-provinces](https://github.com/partthh/Leetcode/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -556,4 +563,8 @@ DSA Soln
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/partthh/Leetcode/tree/master/0127-word-ladder) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
