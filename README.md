@@ -173,6 +173,7 @@ DSA Soln
 | [0124-binary-tree-maximum-path-sum](https://github.com/partthh/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/partthh/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
@@ -239,6 +240,7 @@ DSA Soln
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
@@ -373,6 +375,7 @@ DSA Soln
 | [0687-longest-univalue-path](https://github.com/partthh/Leetcode/tree/master/0687-longest-univalue-path) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/partthh/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -436,6 +439,7 @@ DSA Soln
 | [0662-maximum-width-of-binary-tree](https://github.com/partthh/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/partthh/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/partthh/Leetcode/tree/master/0994-rotting-oranges) |
@@ -532,6 +536,7 @@ DSA Soln
 | [0210-course-schedule-ii](https://github.com/partthh/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/partthh/Leetcode/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/partthh/Leetcode/tree/master/0802-find-eventual-safe-states) |
 ## Graph Coloring
 |  |
@@ -567,4 +572,8 @@ DSA Soln
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
