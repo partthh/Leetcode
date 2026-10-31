@@ -105,6 +105,7 @@ DSA Soln
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
@@ -160,6 +161,7 @@ DSA Soln
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/partthh/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
@@ -242,6 +244,7 @@ DSA Soln
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0743-network-delay-time](https://github.com/partthh/Leetcode/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -377,6 +380,7 @@ DSA Soln
 | [0687-longest-univalue-path](https://github.com/partthh/Leetcode/tree/master/0687-longest-univalue-path) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/partthh/Leetcode/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/partthh/Leetcode/tree/master/0802-find-eventual-safe-states) |
@@ -442,6 +446,7 @@ DSA Soln
 | [0662-maximum-width-of-binary-tree](https://github.com/partthh/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/partthh/Leetcode/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/partthh/Leetcode/tree/master/0802-find-eventual-safe-states) |
@@ -471,6 +476,7 @@ DSA Soln
 | [0450-delete-node-in-a-bst](https://github.com/partthh/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0540-single-element-in-a-sorted-array](https://github.com/partthh/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/partthh/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0783-search-in-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
@@ -530,6 +536,7 @@ DSA Soln
 | [0130-surrounded-regions](https://github.com/partthh/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/partthh/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/partthh/Leetcode/tree/master/0547-number-of-provinces) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/partthh/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -578,6 +585,7 @@ DSA Soln
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/partthh/Leetcode/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/partthh/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Shortest Path
@@ -594,4 +602,8 @@ DSA Soln
 |  |
 | ------- |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/partthh/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Minimax
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 <!---LeetCode Topics End-->
