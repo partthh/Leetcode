@@ -11,7 +11,7 @@ class Solution {
             int w=edge[2];
 
             adj[u][v]=Math.min(adj[u][v],w);
-            adj[v][u]=Math.min(adj[u][v],w);
+            adj[v][u]=Math.min(adj[v][u],w);
 
         }
         for(int i=0;i<n;i++){
