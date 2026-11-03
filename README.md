@@ -37,6 +37,7 @@ DSA Soln
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/partthh/Leetcode/tree/master/0204-count-primes) |
@@ -171,6 +172,7 @@ DSA Soln
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/partthh/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/partthh/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/partthh/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -606,4 +608,8 @@ DSA Soln
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
