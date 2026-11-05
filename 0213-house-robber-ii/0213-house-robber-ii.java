@@ -18,17 +18,15 @@ class Solution {
         return Math.max(fun1(nums.length-1,dp,arr1),fun1(nums.length-1,dp1,arr2));
     }
     public int fun1(int x,int[] dp,int[] newa){
-        if(x<0){
-            return 0;
+        dp[0]=newa[0];
+        for(int i=1;i<newa.length;i++){
+            int pick=newa[i];
+            if(i>1){
+                pick+=dp[i-2];
+            }
+            int nopick=dp[i-1];
+            dp[i]=Math.max(pick,nopick);
         }
-        if(x==0){
-            return newa[0];
-        }
-        if(dp[x]!=-1){
-            return dp[x];
-        }
-        int pick=newa[x]+fun1(x-2,dp,newa);
-        int nopick=fun1(x-1,dp,newa);
-        return dp[x]=Math.max(pick,nopick);
+        return dp[newa.length-1];
     }
 }
