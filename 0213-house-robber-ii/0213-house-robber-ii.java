@@ -11,22 +11,18 @@ class Solution {
         }
         arr1[nums.length-1]=0;
         arr2[0]=0;
-        int[] dp=new int[nums.length];
-        Arrays.fill(dp,-1);
-        int[] dp1=new int[nums.length];
-        Arrays.fill(dp1,-1);
-        return Math.max(fun1(nums.length-1,dp,arr1),fun1(nums.length-1,dp1,arr2));
+        return Math.max(fun1(nums.length-1,arr1),fun1(nums.length-1,arr2));
     }
-    public int fun1(int x,int[] dp,int[] newa){
-        dp[0]=newa[0];
-        for(int i=1;i<newa.length;i++){
-            int pick=newa[i];
-            if(i>1){
-                pick+=dp[i-2];
-            }
-            int nopick=dp[i-1];
-            dp[i]=Math.max(pick,nopick);
+    public int fun1(int x,int[] nums1){
+        int prev=nums1[0];
+        int prev1=0;
+        for(int i=1;i<nums1.length;i++){
+            int pick=nums1[i]+prev1;
+            int nopick=prev;
+            int curr=Math.max(pick,nopick);
+            prev1=prev;
+            prev=curr;
         }
-        return dp[newa.length-1];
+        return prev;
     }
 }
