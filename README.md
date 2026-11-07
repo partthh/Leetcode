@@ -37,6 +37,7 @@ DSA Soln
 | [0013-roman-to-integer](https://github.com/partthh/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/partthh/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/partthh/Leetcode/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/partthh/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/partthh/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/partthh/Leetcode/tree/master/0202-happy-number) |
@@ -174,6 +175,7 @@ DSA Soln
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/partthh/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/partthh/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/partthh/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/partthh/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -616,4 +618,8 @@ DSA Soln
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/partthh/Leetcode/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/partthh/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
