@@ -2,24 +2,19 @@ class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n=triangle.size();
         int[][] dp=new int[n][triangle.get(n-1).size()];
-        boolean[][] vis=new boolean[n][n];
         for(int[] x:dp){
             Arrays.fill(x,-1);
         }
-        return fun1(0,0,triangle,dp,vis);
-    }
-
-    public int fun1(int row,int col,List<List<Integer>> triangle,int[][] dp,boolean[][] vis){
-        if(row==triangle.size()-1){
-            return triangle.get(row).get(col);
+        for(int i=0;i<n;i++){
+            dp[n-1][i]=triangle.get(n-1).get(i);
         }
-        if(vis[row][col]){
-            return dp[row][col];
+        for(int i=n-2;i>=0;i--){
+            for(int j=0;j<=i;j++){
+                int down=dp[i+1][j];
+                int rightdown=dp[i+1][j+1];
+                dp[i][j]=triangle.get(i).get(j)+Math.min(down,rightdown);
+            }
         }
-        int down=fun1(row+1,col,triangle,dp,vis);
-        int rightdown=fun1(row+1,col+1,triangle,dp,vis);
-        dp[row][col]=triangle.get(row).get(col)+Math.min(down,rightdown);
-        vis[row][col]=true;
-        return dp[row][col];
+        return dp[0][0];
     }
 }
