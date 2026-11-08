@@ -124,6 +124,7 @@ DSA Soln
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
+| [1463-cherry-pickup-ii](https://github.com/partthh/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1723-maximum-number-of-achievable-transfer-requests](https://github.com/partthh/Leetcode/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/partthh/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -175,6 +176,7 @@ DSA Soln
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/partthh/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1463-cherry-pickup-ii](https://github.com/partthh/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1631-path-with-minimum-effort](https://github.com/partthh/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
@@ -196,6 +198,7 @@ DSA Soln
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/partthh/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
+| [1463-cherry-pickup-ii](https://github.com/partthh/Leetcode/tree/master/1463-cherry-pickup-ii) |
 ## Bitmask
 |  |
 | ------- |
