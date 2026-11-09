@@ -113,6 +113,7 @@ DSA Soln
 | [0540-single-element-in-a-sorted-array](https://github.com/partthh/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/partthh/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/partthh/Leetcode/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/partthh/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/partthh/Leetcode/tree/master/0792-binary-search) |
@@ -200,6 +201,7 @@ DSA Soln
 | [0198-house-robber](https://github.com/partthh/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/partthh/Leetcode/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/partthh/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/partthh/Leetcode/tree/master/0931-minimum-falling-path-sum) |
@@ -327,6 +329,7 @@ DSA Soln
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/partthh/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/partthh/Leetcode/tree/master/0134-gas-station) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/partthh/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/partthh/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/partthh/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
