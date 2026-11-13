@@ -113,6 +113,7 @@ DSA Soln
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/partthh/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/partthh/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/partthh/Leetcode/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/partthh/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/partthh/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -150,6 +151,7 @@ DSA Soln
 | [0077-combinations](https://github.com/partthh/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/partthh/Leetcode/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/partthh/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/partthh/Leetcode/tree/master/0494-target-sum) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1418-fair-distribution-of-cookies](https://github.com/partthh/Leetcode/tree/master/1418-fair-distribution-of-cookies) |
@@ -207,6 +209,7 @@ DSA Soln
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/partthh/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/partthh/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/partthh/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/partthh/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/partthh/Leetcode/tree/master/0542-01-matrix) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/partthh/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -660,11 +663,13 @@ DSA Soln
 | ------- |
 | [0322-coin-change](https://github.com/partthh/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/partthh/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/partthh/Leetcode/tree/master/0494-target-sum) |
 | [1049-last-stone-weight-ii](https://github.com/partthh/Leetcode/tree/master/1049-last-stone-weight-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/partthh/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/partthh/Leetcode/tree/master/0494-target-sum) |
 | [1049-last-stone-weight-ii](https://github.com/partthh/Leetcode/tree/master/1049-last-stone-weight-ii) |
 ## Complete Knapsack
 |  |
