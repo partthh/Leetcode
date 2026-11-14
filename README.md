@@ -108,6 +108,7 @@ DSA Soln
 | [0229-majority-element-ii](https://github.com/partthh/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/partthh/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/partthh/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/partthh/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/partthh/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -207,6 +208,7 @@ DSA Soln
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/partthh/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/partthh/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/partthh/Leetcode/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/partthh/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/partthh/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/partthh/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/partthh/Leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -519,6 +521,7 @@ DSA Soln
 | [0230-kth-smallest-element-in-a-bst](https://github.com/partthh/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/partthh/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0268-missing-number](https://github.com/partthh/Leetcode/tree/master/0268-missing-number) |
+| [0300-longest-increasing-subsequence](https://github.com/partthh/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/partthh/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0540-single-element-in-a-sorted-array](https://github.com/partthh/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/partthh/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -679,4 +682,8 @@ DSA Soln
 | ------- |
 | [0322-coin-change](https://github.com/partthh/Leetcode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/partthh/Leetcode/tree/master/0518-coin-change-ii) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/partthh/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
