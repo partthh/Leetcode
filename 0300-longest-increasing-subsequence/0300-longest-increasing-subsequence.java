@@ -8,10 +8,10 @@ class Solution {
         }
         int nopick=fun1(index+1,prev,nums,dp);
         int pick=0;
-        if(prev==-1 || nums[index]>nums[prev]){
+        if(prev==-1 || nums[prev]<nums[index]){
             pick=1+fun1(index+1,index,nums,dp);
         }
-        return dp[index][prev+1]=Math.max(pick,nopick);
+        return dp[index][prev+1]=Math.max(nopick,pick);
     }
     public int lengthOfLIS(int[] nums) {
         int[][] dp=new int[nums.length][nums.length+1];
@@ -19,5 +19,6 @@ class Solution {
             Arrays.fill(row,-1);
         }
         return fun1(0,-1,nums,dp);
+
     }
 }
