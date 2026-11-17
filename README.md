@@ -26,6 +26,7 @@ DSA Soln
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/partthh/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/partthh/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/partthh/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/partthh/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Math
@@ -58,6 +59,7 @@ DSA Soln
 | [0257-binary-tree-paths](https://github.com/partthh/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/partthh/Leetcode/tree/master/0812-rotate-string) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/partthh/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -132,6 +134,7 @@ DSA Soln
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/partthh/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/partthh/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1022-unique-paths-iii](https://github.com/partthh/Leetcode/tree/master/1022-unique-paths-iii) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/partthh/Leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/partthh/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/partthh/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -222,6 +225,7 @@ DSA Soln
 | [0787-cheapest-flights-within-k-stops](https://github.com/partthh/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/partthh/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/partthh/Leetcode/tree/master/0931-minimum-falling-path-sum) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/partthh/Leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/partthh/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/partthh/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -257,6 +261,7 @@ DSA Soln
 | [0283-move-zeroes](https://github.com/partthh/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/partthh/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/partthh/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/partthh/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Design
 |  |
@@ -282,6 +287,7 @@ DSA Soln
 | [0451-sort-characters-by-frequency](https://github.com/partthh/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/partthh/Leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/partthh/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1962-single-threaded-cpu](https://github.com/partthh/Leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/partthh/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Heap (Priority Queue)
