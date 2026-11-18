@@ -61,6 +61,7 @@ DSA Soln
 | [0812-rotate-string](https://github.com/partthh/Leetcode/tree/master/0812-rotate-string) |
 | [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/partthh/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1143-longest-common-subsequence](https://github.com/partthh/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/partthh/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/partthh/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -227,6 +228,7 @@ DSA Soln
 | [0931-minimum-falling-path-sum](https://github.com/partthh/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/partthh/Leetcode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/partthh/Leetcode/tree/master/1049-last-stone-weight-ii) |
+| [1143-longest-common-subsequence](https://github.com/partthh/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/partthh/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/partthh/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/partthh/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -696,4 +698,8 @@ DSA Soln
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/partthh/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/partthh/Leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
